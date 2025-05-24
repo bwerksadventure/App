@@ -1,0 +1,18 @@
+distributionUrl=https\://services.gradle.org/distributions/gradle-8.2-bin.zip
+distributionBase=GRADLE_USER_HOME
+distributionPath=wrapper/dists
+zipStoreBase=GRADLE_USER_HOME
+zipStorePath=wrapper/dists
+
+gradle wrapper --gradle-version 8.2
+
+org.gradle.jvmargs=-Xmx2g -XX:MaxPermSize=512m -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8
+org.gradle.parallel=true
+org.gradle.caching=true
+org.gradle.daemon=true
+android.enableJetifier=true
+android.jetifier.configFile=jetifier.config.json
+
+gradlew.bat build
+gradlew.bat installDebug
+gradlew.bat assembleRelease

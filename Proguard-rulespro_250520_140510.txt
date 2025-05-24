@@ -1,0 +1,13 @@
+# Keep JSON-related classes
+-keep class org.json.** { *; }
+
+# Keep coroutines
+-keep class kotlinx.coroutines.** { *; }
+
+# Keep your custom classes
+-keep class com.miniai.host.** { *; }
+
+# Prevent obfuscation of WebView JavaScript interfaces
+-keepclassmembers class * {
+    @android.webkit.JavascriptInterface <methods>;
+}

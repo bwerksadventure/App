@@ -1,0 +1,12 @@
+{
+    "rules": [
+        {
+            "from": "android/support/v4/app/Fragment",
+            "to": "androidx/fragment/app/Fragment"
+        },
+        {
+            "from": "com/miniai/host/MyOldClass",
+            "to": "com/miniai/host/MyNewClass"
+        }
+    ]
+}
