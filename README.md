@@ -1,1 +1,1 @@
-# App
+# App the HOST APP is not the ai, the ai is not coded into the app. This app is intended to host the ai once plug-and-play package is loaded into host app  the ai becomes the ui and takes over for applications operating 
